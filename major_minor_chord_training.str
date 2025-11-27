@@ -1,0 +1,95 @@
+// Major vs Minor Chord Training
+// This exercise helps you distinguish between major and minor chords
+// Major chords sound bright/happy, Minor chords sound dark/sad
+
+// C Major chord (C-E-G) - sounds happy/stable
+$: note("<c e g>")
+  .scale("C4:major")
+  .s("piano")
+  .slow(3)
+  .gain(0.8)
+
+// C Minor chord (C-Eb-G) - sounds sad/dark
+// $: note("<c eb g>")
+//   .scale("C4:major")
+//   .s("piano")
+//   .slow(3)
+//   .gain(0.8)
+
+// D Major chord (D-F#-A)
+// $: note("<d f# a>")
+//   .scale("C4:major")
+//   .s("piano")
+//   .slow(3)
+//   .gain(0.8)
+
+// D Minor chord (D-F-A)
+// $: note("<d f a>")
+//   .scale("C4:major")
+//   .s("piano")
+//   .slow(3)
+//   .gain(0.8)
+
+// E Major chord (E-G#-B)
+// $: note("<e g# b>")
+//   .scale("C4:major")
+//   .s("piano")
+//   .slow(3)
+//   .gain(0.8)
+
+// E Minor chord (E-G-B)
+// $: note("<e g b>")
+//   .scale("C4:major")
+//   .s("piano")
+//   .slow(3)
+//   .gain(0.8)
+
+// F Major chord (F-A-C)
+// $: note("<f a c5>")
+//   .scale("C4:major")
+//   .s("piano")
+//   .slow(3)
+//   .gain(0.8)
+
+// F Minor chord (F-Ab-C)
+// $: note("<f ab c5>")
+//   .scale("C4:major")
+//   .s("piano")
+//   .slow(3)
+//   .gain(0.8)
+
+// G Major chord (G-B-D)
+// $: note("<g b d5>")
+//   .scale("C4:major")
+//   .s("piano")
+//   .slow(3)
+//   .gain(0.8)
+
+// G Minor chord (G-Bb-D)
+// $: note("<g bb d5>")
+//   .scale("C4:major")
+//   .s("piano")
+//   .slow(3)
+//   .gain(0.8)
+
+// A Major chord (A-C#-E)
+// $: note("<a c# e5>")
+//   .scale("C4:major")
+//   .s("piano")
+//   .slow(3)
+//   .gain(0.8)
+
+// A Minor chord (A-C-E)
+// $: note("<a c e5>")
+//   .scale("C4:major")
+//   .s("piano")
+//   .slow(3)
+//   .gain(0.8)
+
+// Instructions:
+// 1. Start with C Major (already active)
+// 2. Listen until you internalize the "happy" sound
+// 3. Uncomment C Minor and compare - notice the "sad" quality
+// 4. Practice switching between major/minor versions of the same root
+// 5. Try to identify whether a chord is major or minor by ear
+// 6. Advanced: Uncomment multiple chords and create random patterns

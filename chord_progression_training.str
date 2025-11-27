@@ -1,0 +1,81 @@
+// Chord Progression Training
+// This exercise helps you recognize common chord progressions
+// These are the building blocks of most popular music
+
+// === BASIC PROGRESSIONS IN C MAJOR ===
+
+// I-IV-V-I (C-F-G-C) - The most common progression in pop/rock
+// "Louie Louie", "Twist and Shout", "Wild Thing"
+$: note("<[c,e,g] [f,a,c5] [g,b,d5] [c,e,g]>")
+  .scale("C4:major")
+  .s("gm_acoustic_guitar_nylon")
+  .slow(2)
+  .gain(0.8)
+
+// I-V-vi-IV (C-G-Am-F) - Extremely popular "pop progression"
+// "Let It Be", "Don't Stop Believin'", "With or Without You"
+// $: note("<[c e g] [g b d5] [a c e5] [f a c5]>")
+//   .scale("C4:major")
+//   .s("piano")
+//   .slow(2)
+//   .gain(0.8)
+
+// ii-V-I (Dm-G-C) - Classic jazz/cadence progression
+// $: note("<[d f a] [g b d5] [c e g]>")
+//   .scale("C4:major")
+//   .s("piano")
+//   .slow(2)
+//   .gain(0.8)
+
+// I-vi-IV-V (C-Am-F-G) - "50s progression"
+// "Stand By Me", "Every Breath You Take"
+// $: note("<[c e g] [a c e5] [f a c5] [g b d5]>")
+//   .scale("C4:major")
+//   .s("piano")
+//   .slow(2)
+//   .gain(0.8)
+
+// vi-IV-I-V (Am-F-C-G) - Melancholic pop progression
+// "Apologize", "Poker Face"
+// $: note("<[a c e5] [f a c5] [c e g] [g b d5]>")
+//   .scale("C4:major")
+//   .s("piano")
+//   .slow(2)
+//   .gain(0.8)
+
+// I-IV-vi-V (C-F-Am-G) - Optimistic/uplifting
+// $: note("<[c e g] [f a c5] [a c e5] [g b d5]>")
+//   .scale("C4:major")
+//   .s("piano")
+//   .slow(2)
+//   .gain(0.8)
+
+// === PROGRESSIONS WITH BASS LINE ===
+// Add bass notes to hear the chord changes more clearly
+
+// I-IV-V-I with bass
+// $: stack(
+//   note("<c f g c>").scale("C3:major").s("piano").slow(2).gain(0.6),
+//   note("<[c e g] [f a c5] [g b d5] [c e g]>").scale("C4:major").s("piano").slow(2).gain(0.7)
+// )
+
+// I-V-vi-IV with bass
+// $: stack(
+//   note("<c g a f>").scale("C3:major").s("piano").slow(2).gain(0.6),
+//   note("<[c e g] [g b d5] [a c e5] [f a c5]>").scale("C4:major").s("piano").slow(2).gain(0.7)
+// )
+
+// Instructions:
+// 1. Start with I-IV-V-I (already active)
+// 2. Listen repeatedly until you can anticipate the chord changes
+// 3. Try singing or humming along with the progression
+// 4. Uncomment one progression at a time to learn each one
+// 5. Notice how different progressions create different emotions
+// 6. Advanced: Try to identify which progression you're hearing
+
+// Tips:
+// - I (C) = home/stable
+// - IV (F) = movement away from home
+// - V (G) = tension/wants to resolve to I
+// - vi (Am) = relative minor, sounds melancholic
+// - ii (Dm) = pre-dominant, leads to V

@@ -1,0 +1,76 @@
+// Interval Training
+// This exercise helps you identify musical intervals
+// Each interval plays twice with a pause in between
+// Try to identify the interval before it repeats
+
+// Minor 2nd (semitone) - sounds tense/dissonant
+$: note("c c#").scale("C4:major")
+  .s("piano")
+  .slow(4)
+  .gain(0.8)
+
+// Major 2nd (whole step) - sounds like "do-re"
+// $: note("c d").scale("C4:major")
+//   .s("piano")
+//   .slow(4)
+//   .gain(0.8)
+
+// Minor 3rd - sounds sad/minor
+// $: note("c eb").scale("C4:major")
+//   .s("piano")
+//   .slow(4)
+//   .gain(0.8)
+
+// Major 3rd - sounds happy/major
+// $: note("c e").scale("C4:major")
+//   .s("piano")
+//   .slow(4)
+//   .gain(0.8)
+
+// Perfect 4th - sounds stable (like "Here Comes the Bride")
+// $: note("c f").scale("C4:major")
+//   .s("piano")
+//   .slow(4)
+//   .gain(0.8)
+
+// Perfect 5th - sounds very stable/open (like "Twinkle Twinkle")
+// $: note("c g").scale("C4:major")
+//   .s("piano")
+//   .slow(4)
+//   .gain(0.8)
+
+// Minor 6th - sounds melancholic
+// $: note("c ab").scale("C4:major")
+//   .s("piano")
+//   .slow(4)
+//   .gain(0.8)
+
+// Major 6th - sounds bright/hopeful
+// $: note("c a").scale("C4:major")
+//   .s("piano")
+//   .slow(4)
+//   .gain(0.8)
+
+// Minor 7th - sounds tense/bluesy
+// $: note("c bb").scale("C4:major")
+//   .s("piano")
+//   .slow(4)
+//   .gain(0.8)
+
+// Major 7th - sounds very tense/leading
+// $: note("c b").scale("C4:major")
+//   .s("piano")
+//   .slow(4)
+//   .gain(0.8)
+
+// Octave - same note, higher
+// $: note("c c5").scale("C4:major")
+//   .s("piano")
+//   .slow(4)
+//   .gain(0.8)
+
+// Instructions:
+// 1. Uncomment ONE interval at a time by removing the // 
+// 2. Listen to it repeatedly until you can recognize it
+// 3. Try to sing it back
+// 4. Move to the next interval when ready
